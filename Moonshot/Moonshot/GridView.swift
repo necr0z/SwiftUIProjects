@@ -18,44 +18,48 @@ struct GridView: View {
     
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: columns){
-                ForEach(missions) {mission in
-                    NavigationLink {
-                        MissionView(mission: mission, astronauts: astronauts)
-                    } label: {
-                        VStack {
-                            Image(mission.image)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width:100, height:100)
-                                .padding()
-                            
-                            VStack{
-                                Text(mission.displayName)
-                                    .font(.headline)
-                                    .foregroundStyle(.white )
-                                Text(mission.formattedLaunchDate)
-                                    .font(.caption)
-                                    .foregroundStyle(.gray)
+        NavigationStack{
+            ScrollView {
+                LazyVGrid(columns: columns){
+                    ForEach(missions) {mission in
+                        NavigationLink(value: mission) {
+//                            refactored due to challenge 9. hashable the structs and put .navigationdestination and (value)
+                            VStack {
+                                Image(mission.image)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width:100, height:100)
+                                    .padding()
+                                
+                                VStack{
+                                    Text(mission.displayName)
+                                        .font(.headline)
+                                        .foregroundStyle(.white )
+                                    Text(mission.formattedLaunchDate)
+                                        .font(.caption)
+                                        .foregroundStyle(.gray)
+                                }
+                                .padding(.vertical)
+                                .frame(maxWidth: .infinity)
+                                .background(.lightBackground)
+                                
                             }
-                            .padding(.vertical)
-                            .frame(maxWidth: .infinity)
-                            .background(.lightBackground)
-
+                            .clipShape(.rect(cornerRadius: 10))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(.lightBackground)
+                            )
+                            
                         }
-                        .clipShape(.rect(cornerRadius: 10))
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 10)
-                                .stroke(.lightBackground)
-                        )
-                        
                     }
+                    
+                    
                 }
-                
-
+                .padding([.horizontal, .bottom])
             }
-            .padding([.horizontal, .bottom])
+            .navigationDestination(for: Mission.self) { mission in
+                            MissionView(mission: mission, astronauts: astronauts)
+                        }
         }
     }
 }

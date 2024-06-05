@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MissionView: View {
     
-    struct CrewMember {
+    struct CrewMember: Hashable {
         let role: String
         let astronaut: Astronaut
     }

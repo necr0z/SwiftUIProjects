@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DFCD7AE12C12F52300E4E15B /* HabitTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD7AE02C12F52300E4E15B /* HabitTrackingApp.swift */; };
-		DFCD7AE32C12F52300E4E15B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD7AE22C12F52300E4E15B /* ContentView.swift */; };
-		DFCD7AE52C12F52800E4E15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD7AE42C12F52800E4E15B /* Assets.xcassets */; };
-		DFCD7AE82C12F52800E4E15B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD7AE72C12F52800E4E15B /* Preview Assets.xcassets */; };
-		DFCD7AF12C12F9EB00E4E15B /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD7AF02C12F9EB00E4E15B /* AddHabit.swift */; };
-		DFCD7AF32C171B8B00E4E15B /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD7AF22C171B8B00E4E15B /* HabitView.swift */; };
+		DFCC2AB02C1848860050D892 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC2AAF2C1848860050D892 /* CupcakeCornerApp.swift */; };
+		DFCC2AB22C1848860050D892 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC2AB12C1848860050D892 /* ContentView.swift */; };
+		DFCC2AB42C1848890050D892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCC2AB32C1848890050D892 /* Assets.xcassets */; };
+		DFCC2AB72C1848890050D892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCC2AB62C1848890050D892 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DFCD7ADD2C12F52300E4E15B /* HabitTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFCD7AE02C12F52300E4E15B /* HabitTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackingApp.swift; sourceTree = "<group>"; };
-		DFCD7AE22C12F52300E4E15B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DFCD7AE42C12F52800E4E15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DFCD7AE72C12F52800E4E15B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DFCD7AF02C12F9EB00E4E15B /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
-		DFCD7AF22C171B8B00E4E15B /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		DFCC2AAC2C1848860050D892 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCC2AAF2C1848860050D892 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
+		DFCC2AB12C1848860050D892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFCC2AB32C1848890050D892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCC2AB62C1848890050D892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DFCD7ADA2C12F52300E4E15B /* Frameworks */ = {
+		DFCC2AA92C1848860050D892 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DFCD7AD42C12F52300E4E15B = {
+		DFCC2AA32C1848860050D892 = {
 			isa = PBXGroup;
 			children = (
-				DFCD7ADF2C12F52300E4E15B /* HabitTracking */,
-				DFCD7ADE2C12F52300E4E15B /* Products */,
+				DFCC2AAE2C1848860050D892 /* CupcakeCorner */,
+				DFCC2AAD2C1848860050D892 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DFCD7ADE2C12F52300E4E15B /* Products */ = {
+		DFCC2AAD2C1848860050D892 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFCD7ADD2C12F52300E4E15B /* HabitTracking.app */,
+				DFCC2AAC2C1848860050D892 /* CupcakeCorner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DFCD7ADF2C12F52300E4E15B /* HabitTracking */ = {
+		DFCC2AAE2C1848860050D892 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
-				DFCD7AE02C12F52300E4E15B /* HabitTrackingApp.swift */,
-				DFCD7AE22C12F52300E4E15B /* ContentView.swift */,
-				DFCD7AF22C171B8B00E4E15B /* HabitView.swift */,
-				DFCD7AF02C12F9EB00E4E15B /* AddHabit.swift */,
-				DFCD7AE42C12F52800E4E15B /* Assets.xcassets */,
-				DFCD7AE62C12F52800E4E15B /* Preview Content */,
+				DFCC2AAF2C1848860050D892 /* CupcakeCornerApp.swift */,
+				DFCC2AB12C1848860050D892 /* ContentView.swift */,
+				DFCC2AB32C1848890050D892 /* Assets.xcassets */,
+				DFCC2AB52C1848890050D892 /* Preview Content */,
 			);
-			path = HabitTracking;
+			path = CupcakeCorner;
 			sourceTree = "<group>";
 		};
-		DFCD7AE62C12F52800E4E15B /* Preview Content */ = {
+		DFCC2AB52C1848890050D892 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DFCD7AE72C12F52800E4E15B /* Preview Assets.xcassets */,
+				DFCC2AB62C1848890050D892 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFCD7ADC2C12F52300E4E15B /* HabitTracking */ = {
+		DFCC2AAB2C1848860050D892 /* CupcakeCorner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFCD7AEB2C12F52800E4E15B /* Build configuration list for PBXNativeTarget "HabitTracking" */;
+			buildConfigurationList = DFCC2ABA2C1848890050D892 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
 			buildPhases = (
-				DFCD7AD92C12F52300E4E15B /* Sources */,
-				DFCD7ADA2C12F52300E4E15B /* Frameworks */,
-				DFCD7ADB2C12F52300E4E15B /* Resources */,
+				DFCC2AA82C1848860050D892 /* Sources */,
+				DFCC2AA92C1848860050D892 /* Frameworks */,
+				DFCC2AAA2C1848860050D892 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HabitTracking;
-			productName = HabitTracking;
-			productReference = DFCD7ADD2C12F52300E4E15B /* HabitTracking.app */;
+			name = CupcakeCorner;
+			productName = CupcakeCorner;
+			productReference = DFCC2AAC2C1848860050D892 /* CupcakeCorner.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DFCD7AD52C12F52300E4E15B /* Project object */ = {
+		DFCC2AA42C1848860050D892 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					DFCD7ADC2C12F52300E4E15B = {
+					DFCC2AAB2C1848860050D892 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = DFCD7AD82C12F52300E4E15B /* Build configuration list for PBXProject "HabitTracking" */;
+			buildConfigurationList = DFCC2AA72C1848860050D892 /* Build configuration list for PBXProject "CupcakeCorner" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = DFCD7AD42C12F52300E4E15B;
-			productRefGroup = DFCD7ADE2C12F52300E4E15B /* Products */;
+			mainGroup = DFCC2AA32C1848860050D892;
+			productRefGroup = DFCC2AAD2C1848860050D892 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFCD7ADC2C12F52300E4E15B /* HabitTracking */,
+				DFCC2AAB2C1848860050D892 /* CupcakeCorner */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DFCD7ADB2C12F52300E4E15B /* Resources */ = {
+		DFCC2AAA2C1848860050D892 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCD7AE82C12F52800E4E15B /* Preview Assets.xcassets in Resources */,
-				DFCD7AE52C12F52800E4E15B /* Assets.xcassets in Resources */,
+				DFCC2AB72C1848890050D892 /* Preview Assets.xcassets in Resources */,
+				DFCC2AB42C1848890050D892 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DFCD7AD92C12F52300E4E15B /* Sources */ = {
+		DFCC2AA82C1848860050D892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFCD7AE32C12F52300E4E15B /* ContentView.swift in Sources */,
-				DFCD7AF32C171B8B00E4E15B /* HabitView.swift in Sources */,
-				DFCD7AF12C12F9EB00E4E15B /* AddHabit.swift in Sources */,
-				DFCD7AE12C12F52300E4E15B /* HabitTrackingApp.swift in Sources */,
+				DFCC2AB22C1848860050D892 /* ContentView.swift in Sources */,
+				DFCC2AB02C1848860050D892 /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DFCD7AE92C12F52800E4E15B /* Debug */ = {
+		DFCC2AB82C1848890050D892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +208,7 @@
 			};
 			name = Debug;
 		};
-		DFCD7AEA2C12F52800E4E15B /* Release */ = {
+		DFCC2AB92C1848890050D892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,14 +264,14 @@
 			};
 			name = Release;
 		};
-		DFCD7AEC2C12F52800E4E15B /* Debug */ = {
+		DFCC2ABB2C1848890050D892 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HabitTracking/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				DEVELOPMENT_TEAM = ZLN6C47G7S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,7 +285,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.sutd.1004095.HabitTracking;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sutd.1004095.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,14 +293,14 @@
 			};
 			name = Debug;
 		};
-		DFCD7AED2C12F52800E4E15B /* Release */ = {
+		DFCC2ABC2C1848890050D892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HabitTracking/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
 				DEVELOPMENT_TEAM = ZLN6C47G7S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.sutd.1004095.HabitTracking;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sutd.1004095.CupcakeCorner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -333,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFCD7AD82C12F52300E4E15B /* Build configuration list for PBXProject "HabitTracking" */ = {
+		DFCC2AA72C1848860050D892 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFCD7AE92C12F52800E4E15B /* Debug */,
-				DFCD7AEA2C12F52800E4E15B /* Release */,
+				DFCC2AB82C1848890050D892 /* Debug */,
+				DFCC2AB92C1848890050D892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFCD7AEB2C12F52800E4E15B /* Build configuration list for PBXNativeTarget "HabitTracking" */ = {
+		DFCC2ABA2C1848890050D892 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFCD7AEC2C12F52800E4E15B /* Debug */,
-				DFCD7AED2C12F52800E4E15B /* Release */,
+				DFCC2ABB2C1848890050D892 /* Debug */,
+				DFCC2ABC2C1848890050D892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DFCD7AD52C12F52300E4E15B /* Project object */;
+	rootObject = DFCC2AA42C1848860050D892 /* Project object */;
 }

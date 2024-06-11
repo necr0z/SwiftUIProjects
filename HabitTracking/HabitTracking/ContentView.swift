@@ -14,7 +14,7 @@ struct Habit: Identifiable, Codable, Hashable {
     var id = UUID()
     let name: String
     let description: String
-    let count: Int
+    var count: Int
     
 }
 
@@ -40,20 +40,21 @@ struct ContentView: View {
             List{
                 Section("Habits"){
                     ForEach(habits.habitList){habit in
-                        HStack {
-                            VStack{
-                                Text(habit.name)
-                                    .font(.headline)
-                                Text(habit.description)
-                                    .foregroundStyle(.gray)
-
+                        NavigationLink(destination: HabitView(habit: habits)){
+                            HStack {
+                                VStack{
+                                    Text(habit.name)
+                                        .font(.headline)
+                                    Text(habit.description)
+                                        .foregroundStyle(.gray)
+                                    
+                                }
+                                Spacer()
+                                Text("\(habit.count)")
+                                    .font(.body)
+                                    .foregroundStyle(.secondary)
                             }
-                            Spacer()
-                            Text("\(habit.count)")
-                                .font(.body)
-                                .foregroundStyle(.secondary)
                         }
-                        
                         
                     }
                 }

@@ -41,9 +41,6 @@
 		DFCC2AA32C1848860050D892 = {
 			isa = PBXGroup;
 			children = (
-				DF973EDA2C367BF6007416F9 /* Order.swift */,
-				DF973EDC2C3680CC007416F9 /* AddressView.swift */,
-				DF973EDE2C3684A7007416F9 /* CheckoutView.swift */,
 				DFCC2AAE2C1848860050D892 /* CupcakeCorner */,
 				DFCC2AAD2C1848860050D892 /* Products */,
 			);
@@ -60,6 +57,9 @@
 		DFCC2AAE2C1848860050D892 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				DF973EDA2C367BF6007416F9 /* Order.swift */,
+				DF973EDC2C3680CC007416F9 /* AddressView.swift */,
+				DF973EDE2C3684A7007416F9 /* CheckoutView.swift */,
 				DFCC2AAF2C1848860050D892 /* CupcakeCornerApp.swift */,
 				DFCC2AB12C1848860050D892 /* ContentView.swift */,
 				DFCC2AB32C1848890050D892 /* Assets.xcassets */,

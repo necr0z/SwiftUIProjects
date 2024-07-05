@@ -24,7 +24,9 @@ struct AddressView: View {
                     CheckoutView(order: order)
                 }
             }
-            .disabled(order.hasValidAddress == false)
+            
+//            add whitespacecheck challenge 10.1
+            .disabled(order.hasValidAddress == false || order.whiteSpaceCheck == true)
         }
         .navigationTitle("Delivery details")
         .navigationBarTitleDisplayMode(.inline)

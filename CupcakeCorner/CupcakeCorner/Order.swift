@@ -7,6 +7,12 @@
 
 import Foundation
 
+extension String {
+    var isWhitespace: Bool {
+        return self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+}
+
 @Observable
 class Order: Codable {
     enum CodingKeys: String, CodingKey {
@@ -22,6 +28,8 @@ class Order: Codable {
     }
 
     static let types = ["Vanilla", "Strawberry", "Chocolate", "Rainbow"]
+    
+
 
     var type = 0
     var quantity = 3
@@ -49,6 +57,15 @@ class Order: Codable {
         }
 
         return true
+    }
+    
+    //            add whitespacecheck challenge 10.1
+    var whiteSpaceCheck: Bool {
+        if name.isWhitespace || streetAddress.isWhitespace || city.isWhitespace || zip.isWhitespace {
+            
+            return true
+        }
+        return false
     }
 
     var cost: Decimal {
